@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Progigs - It's all about you!</title>
+        <title>Progigs - Its all about you!</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta property="og:title" content="Khoomi" key="title" />
       </Head>
@@ -32,7 +32,7 @@ export default function Home() {
               }}
               onInit={(typewriter) => {
                 typewriter
-                  .typeString(" IT'S ALL ABOUT YOU!")
+                  .typeString(`IT'S ALL ABOUT YOU!`)
                   .pauseFor(2500)
                   .deleteAll()
                   .start();
@@ -40,7 +40,7 @@ export default function Home() {
             />
           </div>
         </div>
-        <Link href="mailto:support@khoomi.com">
+        <Link href="mailto:support@khoomi.com" passHref>
           <div className="absolute bottom-2 text-xs font-light tracking-widest antialiased cursor-pointer">
             support@khoomi.com
           </div>
