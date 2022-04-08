@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Progigs - Its all about you!</title>
+        <title>DDWForex - Its all about you!</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta property="og:title" content="Khoomi" key="title" />
       </Head>
@@ -18,8 +18,8 @@ export default function Home() {
         <div className="flex flex-col relative justify-center items-center gap-y-1">
           <div className="block w-42 max-w-74 h-auto">
             <Image
-              src="/khoomi-logo.svg"
-              alt="Khoomi Logo"
+              src="/logo.png"
+              alt="DDWforex Logo"
               width="200"
               height="60"
             />
@@ -32,7 +32,7 @@ export default function Home() {
               }}
               onInit={(typewriter) => {
                 typewriter
-                  .typeString(`IT'S ALL ABOUT YOU!`)
+                  .typeString(`DDW FOREX`)
                   .pauseFor(2500)
                   .deleteAll()
                   .start();
