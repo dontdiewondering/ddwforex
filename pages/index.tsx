@@ -21,7 +21,7 @@ export default function Home() {
               src="/logo.png"
               alt="DDWforex Logo"
               width="200"
-              height="60"
+              height="80"
             />
           </div>
           <div className="text-xs md:text-medium font-bold tracking-widest antialiased">
@@ -42,7 +42,7 @@ export default function Home() {
         </div>
         <Link href="mailto:support@khoomi.com" passHref>
           <div className="absolute bottom-2 text-xs font-light tracking-widest antialiased cursor-pointer">
-            support@khoomi.com
+            support@ddwforex.com
           </div>
         </Link>
       </div>
