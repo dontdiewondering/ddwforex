@@ -21,7 +21,7 @@ export default function Home() {
               src="/logo.png"
               alt="DDWforex Logo"
               width="300"
-              height="103"
+              height="93"
             />
           </div>
            <div className="text-xs md:text-medium font-bold tracking-widest antialiased">
