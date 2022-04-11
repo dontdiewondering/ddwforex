@@ -16,11 +16,11 @@ export default function Home() {
         style={{ minHeight: "-webkit-fill-available" }}
       >
         <div className="flex flex-col relative justify-center items-center gap-y-1">
-          <div className="block w-42 max-w-74 h-auto">
+          <div className="block w-74 max-w-90 h-auto">
             <Image
               src="/logo.png"
               alt="DDWforex Logo"
-              width="200"
+              width="300"
               height="103"
             />
           </div>
