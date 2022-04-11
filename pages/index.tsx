@@ -32,17 +32,32 @@ export default function Home() {
               }}
               onInit={(typewriter) => {
                 typewriter
-                  .typeString(`DDW FOREX`)
-                  .pauseFor(2500)
+                  .typeString(`DON'T DIE WONDERING`)
+                  .pauseFor(4500)
                   .deleteAll()
                   .start();
+              }}
+            />
+          </div>
+           <div className="text-xs md:text-medium font-bold tracking-widest antialiased">
+            <Typewriter
+              options={{
+                loop: true,
+                autoStart: true,
+              }}
+              onInit={(typewriter) => {
+                typewriter
+                  .typeString(`Automated Trading Software`)
+                  .pauseFor(4500)
+                  .deleteAll()
+                  .start(4500);
               }}
             />
           </div>
         </div>
         <Link href="mailto:support@khoomi.com" passHref>
           <div className="absolute bottom-2 text-xs font-light tracking-widest antialiased cursor-pointer">
-            support@ddwforex.com
+            support@ddw.forex
           </div>
         </Link>
       </div>
