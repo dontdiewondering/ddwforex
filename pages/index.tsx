@@ -48,9 +48,9 @@ export default function Home() {
               onInit={(typewriter) => {
                 typewriter
                   .typeString(`Automated Trading Software`)
-                  .pauseFor(4500)
+                  .pauseFor(0)
                   .deleteAll()
-                  .start(4500);
+                  .start();
               }}
             />
           </div>
