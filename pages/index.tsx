@@ -21,22 +21,7 @@ export default function Home() {
               src="/logo.png"
               alt="DDWforex Logo"
               width="200"
-              height="93"
-            />
-          </div>
-          <div className="text-xs md:text-medium font-bold tracking-widest antialiased">
-            <Typewriter
-              options={{
-                loop: true,
-                autoStart: true,
-              }}
-              onInit={(typewriter) => {
-                typewriter
-                  .typeString(`DON'T DIE WONDERING`)
-                  .pauseFor(4500)
-                  .deleteAll()
-                  .start();
-              }}
+              height="103"
             />
           </div>
            <div className="text-xs md:text-medium font-bold tracking-widest antialiased">
@@ -49,6 +34,21 @@ export default function Home() {
                 typewriter
                   .typeString(`Automated Trading Software`)
                   .pauseFor(0)
+                  .deleteAll()
+                  .start();
+              }}
+            />
+          </div>
+                    <div className="text-xs md:text-medium font-bold tracking-widest antialiased">
+            <Typewriter
+              options={{
+                loop: true,
+                autoStart: true,
+              }}
+              onInit={(typewriter) => {
+                typewriter
+                  .typeString(`DON'T DIE WONDERING`)
+                  .pauseFor(4500)
                   .deleteAll()
                   .start();
               }}
