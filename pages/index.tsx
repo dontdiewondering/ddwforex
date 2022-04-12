@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>DDWForex - Its all about you!</title>
+        <title>DDWForex</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta property="og:title" content="Khoomi" key="title" />
       </Head>
@@ -16,15 +16,15 @@ export default function Home() {
         style={{ minHeight: "-webkit-fill-available" }}
       >
         <div className="flex flex-col relative justify-center items-center gap-y-1">
-          <div className="block w-80 max-w-96 h-auto max-h-44">
+          <div className="block w-full max-w-72 h-auto">
             <Image
               src="/logo.png"
               alt="DDWforex Logo"
-              width="300"
-              height="93"
+              width="220"
+              height="53"
             />
           </div>
-           <div className="text-xs md:text-medium font-bold tracking-widest antialiased">
+          <div className="text-xs md:text-medium font-bold tracking-widest antialiased">
             <Typewriter
               options={{
                 loop: true,
@@ -33,7 +33,10 @@ export default function Home() {
               onInit={(typewriter) => {
                 typewriter
                   .typeString(`Automated Trading Software`)
-                  .pauseFor(2500)
+                  .pauseFor(1500)
+                  .deleteChars(28)
+                  .typeString(`Don't Die Wondering`)
+                  .pauseFor(1500)
                   .deleteAll()
                   .start();
               }}
