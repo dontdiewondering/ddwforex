@@ -32,10 +32,10 @@ export default function Home() {
               }}
               onInit={(typewriter) => {
                 typewriter
-                  .typeString(`Automated Trading Software`)
+                  .typeString(`Don't Die Wondering`)
                   .pauseFor(1500)
                   .deleteChars(28)
-                  .typeString(`Don't Die Wondering`)
+                  .typeString(`Forex Automation`)
                   .pauseFor(1500)
                   .deleteAll()
                   .start();
