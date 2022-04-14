@@ -34,11 +34,12 @@ export default function Home() {
               onInit={(typewriter) => {
                 typewriter
                   .typeString(`Forex Automation`)
-                  .pauseFor(1500)
+                  .pauseFor(1000)
+                  .changeDeleteSpeed("3")
                   .deleteChars(28)
                   .typeString(`Don't Die Wondering`)
-                  .pauseFor(1500)
-                  .deleteAll()
+                  .pauseFor(1000)
+                  .deleteAll("3")
                   .start();
               }}
             />
