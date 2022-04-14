@@ -12,7 +12,7 @@ export default function Home() {
         <meta property="og:title" content="Khoomi" key="title" />
       </Head>
       <div
-        className="bg-white min-h-screen md:h-screen flex w-full justify-center items-center overflow-y-hidden"
+        className="bg-white min-h-screen h-screen flex w-full justify-center items-center overflow-y-hidden"
         style={{ minHeight: "-webkit-fill-available" }}
       >
         <div className="flex flex-col relative justify-center items-center gap-y-1">
