@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>DDWForex</title>
+        <title>DDW Forex</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta property="og:title" content="Khoomi" key="title" />
         <link rel="icon" href="/favico.png"/>
