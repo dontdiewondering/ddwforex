@@ -35,11 +35,11 @@ export default function Home() {
                 typewriter
                   .typeString(`Forex Automation`)
                   .pauseFor(1000)
-                  .changeDeleteSpeed("3")
+                  .changeDeleteSpeed(3)
                   .deleteChars(28)
                   .typeString(`Don't Die Wondering`)
                   .pauseFor(1000)
-                  .deleteAll("3")
+                  .deleteAll(3)
                   .start();
               }}
             />
