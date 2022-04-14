@@ -10,6 +10,7 @@ export default function Home() {
         <title>DDWForex</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta property="og:title" content="Khoomi" key="title" />
+        <link rel="icon" href="/favico.png"/>
       </Head>
       <div
         className="bg-white min-h-screen h-screen flex w-full justify-center items-center overflow-y-hidden"
